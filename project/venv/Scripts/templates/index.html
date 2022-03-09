@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+	<link rel="stylesheet" href="{{ url_for('static',    filename='css/website.css') }}">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/878a075724.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+        <a class="navbar-brand bg-logo-color logo-edits" href="#"><i class="fas fa-database mr-2"></i><span>Nxt</span>Wave</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link active" href="#homePage">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" id="item1" href="#htmlPage">HTML</a>
+                <a class="nav-link" id="item2" href="#others">Others</a>
+                <a class="nav-link" id="item2" href="#follow">Follow me</a>
+            </div>
+        </div>
+    </nav>
+    <div class="bg-color-section d-flex flex-column justify-content-center" id="homePage">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center d-md-none">
+                    <div>
+                        <h1><span>Nxt</span>Wave </h1>
+                        <p>Full Stack Developer <span class="para">Tools</span> </p>
+
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <div class="d-none d-md-block">
+                        <h1 style="font-size:50px;"><span>Nxt</span>Wave </h1>
+                        <p style="font-size:30px;">Full Stack Developer <span class="para">Tools</span> </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-image-html" id="htmlPage">
+        <div class="text-center pt-3">
+            <h1 class="card-heading">HTML</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card-container shadow-lg mt-4">
+                        <img src="https://mediablog.cdnpk.net/sites/6/2021/12/Post-Freepik-Cabecera.jpg" class="w-100" />
+                        <div class="p-3">
+                            <h1 class="small-heaing">Freepik</h1>
+                            <p class="main-para">Freepik is a image website which consist of wide range of images we can use for our website development</p>
+                            <a href="https://www.freepik.com/" target="_blank"><button class="btn btn-primary button-color">Visit now</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card-container shadow-lg mt-4">
+                        <img src="https://res.cloudinary.com/tarun024/image/upload/v1626783432/cloudinary-vector-logo_g8taqt.png" class="w-100" />
+                        <div class="p-3">
+                            <h1 class="small-heaing">Cloudinary</h1>
+                            <p class="main-para">Cloudinary is a website we use to upload and use our own custom images that we can use for our website development</p>
+                            <a href="https://cloudinary.com/" target="_blank"><button class="btn btn-primary button-color">Visit now</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card-container shadow-lg mt-4">
+                        <img src="https://www.mariekuter.com/wp-content/uploads/2018/05/open-graph.png" class="w-100" />
+                        <div class="p-3">
+                            <h1 class="small-heaing">Font awesome</h1>
+                            <p class="main-para">Font awesome provide wide range of Icons more than Boot Strap can provide and easily that can be used by web Developers </p>
+                            <a href="https://fontawesome.com/" target="_blank"><button class="btn btn-primary button-color">Visit now</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card-container shadow-lg mt-4">
+                        <img src="https://code.visualstudio.com/opengraphimg/opengraph-blog.png" class="w-100" />
+                        <div class="p-3">
+                            <h1 class="small-heaing">Visual Studio Code</h1>
+                            <p class="main-para">Visual studio code is free platform that consist of multiple Programming languages Support for different Operating Systems</p>
+                            <a href="https://code.visualstudio.com/" target="_blank"><button class="btn btn-primary button-color">Visit now</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card-container shadow-lg mt-4">
+                        <img src="https://www.k2bindia.com/wp-content/uploads/2013/03/bootstrap-1.jpg" class="w-100" />
+                        <div class="p-3">
+                            <h1 class="small-heaing">Bootstrap 4.5</h1>
+                            <p class="main-para">Bootstrap is website which provied Re-usable Code Snippets that would help any developer to work efficently and it is completely Free</p>
+                            <div>
+                                <a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/" target="_blank"><button class="btn btn-primary button-color">Visit now</button></a>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary button-color" data-toggle="modal" data-target="#exampleModal">
+                                    More
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Bootstrap utilities</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <ul>
+                                                    <li><a href="https://getbootstrap.com/docs/4.5/components/carousel/" target="_blank">Carousel</a></li>
+                                                    <li><a href="https://getbootstrap.com/docs/4.5/components/navbar//" target="_blank">Navbar</a></li>
+                                                    <li><a href="https://getbootstrap.com/docs/4.5/components/modal//" target="_blank">Modal</a></li>
+                                                    <li><a href="https://getbootstrap.com/docs/4.5/utilities/embed/" target="_blank">Embeds</a></li>
+                                                    <li><a href="https://icons.getbootstrap.com/" target="_blank">Icons</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="workin-progress d-flex flex-column justify-content-center" id="others">
+        <div class="text-center pt-3 ">
+            <h1>Website Work in Progress</h1>
+        </div>
+    </div>
+    <div class="footer-section" id="follow">
+        <div class="text-center pt-5">
+            <h1>Follow me on</h1>
+            <a href="https://in.linkedin.com/in/kandula-tarun-572555217?trk=people-guest_people_search-card" target="_blank"><i class="fab fa-linkedin-in social-logo"></i></a>
+        </div>
+    </div>
+</body>
+
+</html>

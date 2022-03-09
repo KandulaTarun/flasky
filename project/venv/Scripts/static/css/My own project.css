@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-logo-color {
+    border-style: solid;
+    font-weight: bold;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-width: 2px;
+    border-color: #4b6cc1;
+}
+
+#item1 {
+    color: white;
+}
+
+#item2 {
+    color: white;
+}
+
+.bg-color-section {
+    background-image: url("https://i.redd.it/iled19ivvn571.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.image-size {
+    width: 250px;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+}
+
+span {
+    color: #46e8e8;
+}
+
+p {
+    color: #b545e6;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.button-color {
+    background-color: #4b6cc1;
+    color: white;
+    border-width: 0px;
+}
+
+.logo-edits {
+    border-style: none;
+}
+
+.para {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bg-image-html {
+    background-color: #f2f5f5;
+
+}
+
+.card-container {
+    background-color: white;
+    margin-bottom: 20px;
+
+
+}
+
+.card-heading {
+    color: #005182;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 16px;
+
+}
+
+.small-heaing {
+    color: black;
+    font-family: bree Serif;
+    font-weight: bold;
+    font-size: 25px;
+
+
+}
+
+.main-para {
+    color: #4f4f4f;
+    font-family: Roboto;
+    font-size: 17px;
+}
+
+.workin-progress {
+    background-image: url("https://res.cloudinary.com/tarun024/image/upload/v1626788053/download_sfsg5h.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.footer-section {
+    background-color: #353638;
+    height: 50vh;
+}
+
+.social-logo {
+    font-size: 40px;
+}
